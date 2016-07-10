@@ -11,7 +11,7 @@ $.fn.extend({
 
 
 $( "#enter" ).click(function() {
-  var input = $('#input').val();
+  var input = $('#input').val().toLowerCase();
   if (input == "love") {
   	$("form").hide();
   	$("#content").removeClass('content1').addClass('content2');
